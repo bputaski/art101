@@ -4,13 +4,13 @@ h1 {
 }
 
 p {
-  font-family: "Arial";
+  font-family: "times new roman";
   text-indent: 20px;
   margin-left: 10px;
 }
 
 #content {
-    background-color: #cccccc;
+    background-color: grey;
     width: 500px;
     min-width: 300px;
     padding: 10px
