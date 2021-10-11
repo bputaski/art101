@@ -1,5 +1,5 @@
 #main {
-  background-color:beige;
+  background-color:blue;
 }
 
 #my-portrait {
@@ -10,7 +10,7 @@
 }
 
 #content {
-    background-color: lightgrey;
+    background-color: grey;
     width: 500px;
     min-width: 300px;
     padding: 10px
@@ -20,7 +20,7 @@
 }
 
 #labs {
-    background-color: lightgrey;
+    background-color: grey;
     width: 500px;
     min-width: 300px;
     padding: 10px
