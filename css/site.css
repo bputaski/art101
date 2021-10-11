@@ -1,11 +1,8 @@
 #main {
-  background-color:blue;
+  background-color:beige;
 }
 
 #my-portrait {
-    width: 300px
-    height: 400px
-    margin-right: 20px;
     border: solid 1px black;
 }
 
@@ -14,7 +11,6 @@
     width: 500px;
     min-width: 300px;
     padding: 10px
-    margin: 10px:auto;
     border: solid 1px #444444;
     font-size: 20px;
 }
