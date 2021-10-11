@@ -3,20 +3,16 @@
 }
 
 #content {
-    background-color: brown;
-    width: 500px;
-    min-width: 300px;
-    padding: 10px
-    border: solid 1px #444444;
-    font-size: 20px;
+    line-height: 3px;
+    font-weight: bold;
+    font-size: 1.1em;
 }
 
-#labs {
-    background-color: brown;
-    width: 500px;
-    min-width: 300px;
-    padding: 10px
-    margin: 10px:auto;
-    border: solid 1px #444444;
-    font-size: 20px;
+#body {
+    margin-left: 10px;
+    margin-right: 10px;
+    border: solid black 1px;
+    background-color: light brown;
+    width: 500px
+    min.h
 }
