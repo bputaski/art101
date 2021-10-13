@@ -4,11 +4,11 @@
 
 #content {
   margin-left: 10px;
-  margin-right: 10px;
+  margin-right: 200px;
   border: solid black 1px;
   background-color: white;
   font-weight: bold;
-  font-size: 15px;
+  font-size: 18px;
   line-height:25px;
   margin-bottom: 10px;
 }
@@ -19,7 +19,7 @@
   border: solid black 1px;
   background-color: white;
   font-weight: bold;
-  font-size: 25px;
+  font-size: 18px;
   line-height:25px;
   margin-bottom: 10px;
 }
