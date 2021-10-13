@@ -3,7 +3,7 @@
 }
 
 #content {
-  margin-left: 10px;
+  margin-left: 25px;
   margin-right: 600px;
   border: solid black 1px;
   background-color: white;
@@ -14,7 +14,7 @@
 }
 
 #body {
-  margin-left: 10px;
+  margin-left: 25px;
   margin-right: 600px;
   border: solid black 1px;
   background-color: white;
@@ -25,7 +25,7 @@
 }
 
 #labs {
-    margin-left: 10px;
+    margin-left: 25px;
     margin-right: 600px;
     border: solid black 1px;
     background-color: white;
