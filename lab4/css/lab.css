@@ -3,6 +3,8 @@ h2 {text-align: center;}
 
 #rice {
   text-align: center;
+  margin-left: 400px;
+  margin-right: 400px;
   border: solid black 1px;
   background-color: white;
   font-weight: bold;
