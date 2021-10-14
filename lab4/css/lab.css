@@ -1,2 +1,13 @@
 h1 {text-align: center;}
 h2 {text-align: center;}
+
+#egg {
+  margin-left: 25px;
+  margin-right: 620px;
+  border: solid black 1px;
+  background-color: white;
+  font-weight: bold;
+  font-size: 10px;
+  line-height:25px;
+  margin-bottom: 10px;
+}
