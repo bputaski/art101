@@ -3,10 +3,22 @@ h2 {text-align: center;}
 
 #egg {
   margin-left: 25px;
-  margin-right: 620px;
+  margin-right: 800px;
   border: solid black 1px;
   background-color: white;
   font-weight: bold;
+  font-size: 10px;
+  line-height:25px;
+  margin-bottom: 10px;
+}
+
+#egg {
+  margin-left: 800px;
+  margin-right: 25px;
+  border: solid black 1px;
+  background-color: white;
+  font-weight: bold;
+  margin-top: -500px;
   font-size: 10px;
   line-height:25px;
   margin-bottom: 10px;
