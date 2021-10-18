@@ -1,6 +1,10 @@
 h1 {text-align: center;}
-h2 {text-align: summary;}
+h2 {text-align: #summary;}
 
+#headers{
+  margin-left: 50px;
+  margin-right: 800px;
+}
 
 #summary {
   text-align: center;
