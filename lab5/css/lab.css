@@ -23,6 +23,7 @@ h2 {text-align: #summary;}
   text-align: center;
   margin-left: 400px;
   margin-right: 800px;
+  margin-top: -800px;
   border: solid black 1px;
   background-color: white;
   font-weight: bold;
