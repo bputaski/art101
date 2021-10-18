@@ -2,6 +2,7 @@ h1 {text-align: center;}
 h2 {text-align: #summary;}
 
 #headers{
+  text-align: center;
   margin-left: 50px;
   margin-right: 800px;
 }
