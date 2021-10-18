@@ -1,5 +1,5 @@
 h1 {text-align: center;}
-h2 {text-align: #summary;}
+
 
 #headers{
   text-align: center;
@@ -30,6 +30,13 @@ h2 {text-align: #summary;}
   font-size: 15px;
   line-height:25px;
   margin-bottom: 10px;
+}
+
+h3{
+  text-align: center;
+  margin-left: 700px;
+  margin-right: 500px;
+  margin-top: -390px;
 }
 
 img {
