@@ -9,18 +9,18 @@
 myTransportArray = ["car", "walking"];
 
 
-var myMainRide = {
-  make = "Honda",
-  model = "Odyssey",
-  color = "Red",
-  year = 2015,
+myMainRide = {
+  make: "Honda",
+  model: "Odyssey",
+  color: "Red",
+  year: 2015,
   age: function() {
     return 2021 - year;
   }
-};
+}
 
 
 //output
-document.writeln("Kinds of transportation I use: ", myTransportArray "</br>");
+document.writeln("Kinds of transportation I use: ", myTransportArray, "</br>");
 document.writeln("My main ride: <pre>",
   JSON.stringify(myMainRide, null, '\t'), "</pre>");
