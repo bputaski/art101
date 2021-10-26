@@ -4,7 +4,7 @@
  * License: Public Domain
  */
  function sortUserName() {
-     var userName = prompt("What's your name? I can give you a new one!");
+     var userName = window.prompt("What's your name? I can give you a new one!");
 
      console.log("userName =", userName);
 
