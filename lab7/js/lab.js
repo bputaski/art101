@@ -19,3 +19,5 @@
 
      return nameSorted;
  }
+
+document.writeln("Here's your brand new name: ". sortUserName(), "<br>");
