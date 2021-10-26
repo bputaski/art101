@@ -1,12 +1,5 @@
 h1 {text-align: center;}
 
-
-#headers{
-  text-align: center;
-  margin-left: 50px;
-  margin-right: 800px;
-}
-
 #summary {
   text-align: center;
   margin-left: 200px;
@@ -19,13 +12,16 @@ h1 {text-align: center;}
   margin-bottom: 10px;
 }
 
-
-
-#javaheader{
+#javaOutput {
   text-align: center;
-  margin-left: 800px;
-  margin-right: 500px;
-  margin-bottom: -50px;
+  margin-left: 200px;
+  margin-right: 200px;
+  border: solid black 1px;
+  background-color: white;
+  font-weight: bold;
+  font-size: 15px;
+  line-height:25px;
+  margin-bottom: 10px;
 }
 
 img {
