@@ -3,9 +3,9 @@
  * Created: 25 October
  * License: Public Domain
  */
- // sortUserName - a function that takes user input and sorts the letters of their name
  function sortUserName() {
-   var userName = window.prompt("Hi, Please tell me your full name so I can fix it.");
+   var userName = window.prompt("What's your name? I can give you a new one!");
+
    console.log("userName =", userName);
 
    var nameArray = userName.split('');
@@ -13,12 +13,11 @@
 
    var nameArraySort = nameArray.sort();
    console.log("nameArraySort =", nameArraySort);
-   
+
    var nameSorted = nameArraySort.join('');
    console.log("nameSorted =", nameSorted);
+
    return nameSorted;
  }
 
-
- // output
- document.writeln("Oh hey, I've fixed your name: ", sortUserName(), "<br>");
+document.writeln("Here's your brand new name: ". sortUserName(), "<br>");
