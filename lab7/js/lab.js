@@ -4,7 +4,7 @@
  * License: Public Domain
  */
  function sortUserName() {
-     var userName = window.prompt("What's your name? I can give you a new one!")
+     var userName = window.prompt("What's your name? I can give you a new one!");
 
      userName = userName.toLowerCase();
      console.log("userName =", userName);
@@ -18,5 +18,5 @@
      var nameSorted = nameArraySort.join('');
      console.log("nameSorted =", nameSorted);
 
-     return userName
+     return userName;
  }
