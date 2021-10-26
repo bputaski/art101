@@ -23,10 +23,3 @@ h1 {text-align: center;}
   line-height:25px;
   margin-bottom: 10px;
 }
-
-img {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  border: solid black 1px;
-}
