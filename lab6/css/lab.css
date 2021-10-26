@@ -18,3 +18,30 @@ h1 {text-align: center;}
   line-height:25px;
   margin-bottom: 10px;
 }
+
+#java{
+  text-align: center;
+  margin-left: 800px;
+  margin-right: 500px;
+  margin-top: -365px;
+  border: solid black 1px;
+  background-color: white;
+  font-weight: bold;
+  font-size: 15px;
+  line-height:25px;
+  margin-bottom: 10px;
+}
+
+#javaheader{
+  text-align: center;
+  margin-left: 800px;
+  margin-right: 500px;
+  margin-bottom: -50px;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border: solid black 1px;
+}
