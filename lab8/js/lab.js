@@ -14,7 +14,7 @@ console.log("Is 3 odd ", isOdd(3))
 console.log("Is 8 odd ", isOdd(8))
 
 array = [7, 23, 6, 2, 50, 15, 77]
-console.log("My array", isOdd(3));
+console.log("My array", array;
 
 var result = array.map(isOdd);
 // should be [true, true, false, false, false, true, true]
