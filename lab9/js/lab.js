@@ -22,6 +22,7 @@
   var el2 = document.createTextNode(new2El);
 
   outputEl.appendChild(el1);
+  outputEl.appendChild(br);
   outputEl.appendChild(el2);
 
 
