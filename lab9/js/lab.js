@@ -21,8 +21,8 @@
     console.log(el1);
   var el2 = document.createTextNode(new2El);
 
-  outputEl.document.appendChild(new1El);
-  outputEl.document.appendChild(new2El);
+  outputEl.appendChild(el1);
+  outputEl.appendChild(el2);
 
 
 
