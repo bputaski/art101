@@ -26,7 +26,7 @@ h1 {text-align: center;}
 
 #output {
   text-align: center;
-  font-family: Brush Script MT;
+  font-family: "Brush Script MT";
   margin-left: 300px;
   margin-right: 300px;
   border: solid black 1px;
