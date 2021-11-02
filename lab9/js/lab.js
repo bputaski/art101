@@ -9,19 +9,14 @@
 
  //create a new element and assign it to a variable
   var new1El = document.createElement("p");
-
- //create a parent node
-  var line1 = document.createTextNode("This is the first element made in my JavaScript!");
-
- //append child node to parent node
-  new1El.appendChild(line1);
-  outputEl.appendChild(new1El);
+    new1El = "This is the first element made in my JavaScript!";
 
   var new2El = document.createElement("p");
+    new2El = "This is the second element made in my JavaScript!";
 
-  var line2 = document.createTextNode("This is the second element made in my JavaScript!");
-
-  new2El.appendChild(line2);
+  var el1 = document.createTextNode(new1El);
+  var el2 = document.createTextNode(new2El);
+  outputEl.appendChild(new1El);
   outputEl.appendChild(new2El);
 
 
