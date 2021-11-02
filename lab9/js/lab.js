@@ -24,4 +24,5 @@
 
   outputEl.appendChild(el1);
   outputEl.appendChild(br);
+  outputEl.appendChild(br);
   outputEl.appendChild(el2);
