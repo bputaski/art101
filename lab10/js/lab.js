@@ -38,5 +38,5 @@
     //modify value by running the function
     var newName = sortUserName(userName);
     //put new value in output
-    outputEL.innerHTML = "<p id=name-results>" +  newName + "</p>";
+    outputEL.innerHTML = "<p>" +  newName + "</p>";
   });
