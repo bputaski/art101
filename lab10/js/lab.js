@@ -6,7 +6,7 @@
 
 
  // sortUserName - a function that takes user input and sorts the letters of their name
-  function sortUserName() {
+  function sortUserName(userName) {
 
     // convert to lower case
     userName = userName.toLowerCase();
@@ -28,7 +28,7 @@
   }
 
   button = document.getElementById('my-button');
-  inputEl = document.getElementById('user-name');
+//  inputEl = document.getElementById('user-name');
   outputEl = document.getElementById("output");
 
   //have the button run the fuction
