@@ -35,6 +35,12 @@
   button.addEventListener('click', function(){
     //get value from name element
     var userName = document.getElementById('user-name').value;
+    
+    var outputValue = document.getElementById('output');
+    var newEl = document.createElement("p");
+    newEl.innerHTML = "Sorted Name: " + sortUsername(userName);
+    outputValue.appendChild(newEl);
+
     //modify value by running the function
     var newName = sortUserName(userName);
     //put new value in output
