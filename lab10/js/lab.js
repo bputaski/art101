@@ -28,12 +28,19 @@
     return nameSorted;
   }
 
-  button = document.getElementById('my-button');
-  inputEl = document.getElementById('user-name');
-  outputEl = document.getElementById('output');
+  buttonEl = document.getElementById("my-button");
+  console.log("button element:", buttonEl);
+  // find the form element
+  inputEl = document.getElementById("user-name");
+  console.log("input element:", inputEl);
+  // find output element
+  outputEl = document.getElementById("output");
+  console.log("output element:", outputEl);
+
+
 
   //have the button run the fuction
-  button.addEventListener('click', function(){
+  buttonEl.addEventListener('click', function(){
     //get value from name element
     var userName = inputEL.value;
     //modify value by running the function
