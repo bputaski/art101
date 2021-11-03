@@ -38,11 +38,11 @@
    button = document.getElementById('my-button');
    inputEl = document.getElementById('user-name');
    outputEl = document.getElementById('output');
- 
+
    //have the button run the fuction
    button.addEventListener('click', function(){
      //get value from name element
-     var userName = inputEL.value;
+     var userName = document.getElementById('user-name').value;
      //modify value by running the function
      var newName = sortUserName(userName);
      //put new value in output
