@@ -41,10 +41,23 @@
 
   //have the button run the fuction
   buttonEl.addEventListener('click', function(){
-    //get value from name element
-    var userName = inputEL.value;
-    //modify value by running the function
-    var newName = sortUserName(userName);
-    //put new value in output
-    outputEL.innerHTML = "<p id=name-results>" +  newName + "</p>";
-  });
+  // sortUserName - a function that takes user input and sorts the letters of their name
+  function sortUserName() {
+    var userName = document.getElementById("user-name").value;
+    console.log("userName =", userName);
+
+    //split string to array
+    var nameArray = userName.split('');
+    console.log("nameArray =", nameArray);
+
+    //sort the array
+    var nameArraySort = nameArray.sort();
+    console.log("nameArraySort =", nameArraySort);
+
+    // join array back to a string
+    var nameSorted = nameArraySort.join('');
+    console.log("nameSorted =", nameSorted);
+    return nameSorted;
+  }
+  outputEL.innerHTML = "<p id=name-results>" +  nameSorted + "</p>";
+ });
