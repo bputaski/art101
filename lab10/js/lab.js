@@ -29,8 +29,8 @@
   }
 
   button = document.getElementById('my-button').value;
-  inputEl = document.getElementById("user-name").value;
-  outputEl = document.getElementById("output").value;
+  inputEl = document.getElementById('user-name').value;
+  outputEl = document.getElementById('output').value;
 
   //have the button run the fuction
   button.addEventListener('click', function(){
