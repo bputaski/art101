@@ -28,9 +28,9 @@
     return nameSorted;
   }
 
-  button = document.getElementById('my-button');
-  inputEl = document.getElementById("user-name");
-  outputEl = document.getElementById("output");
+  var button = document.getElementById('my-button');
+  var inputEl = document.getElementById("user-name");
+  var outputEl = document.getElementById("output");
 
   //have the button run the fuction
   button.addEventListener('click', function(){
