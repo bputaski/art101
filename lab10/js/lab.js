@@ -42,7 +42,7 @@
     outputValue.appendChild(newEl);
 
     //modify value by running the function
-    var newName = sortUserName(userName);
+    //var newName = sortUserName(userName);
     //put new value in output
-    outputEL.innerHTML = "<p>" +  newName + "</p>";
+    //outputEL.innerHTML = "<p>" +  newName + "</p>";
   });
