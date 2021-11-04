@@ -38,7 +38,7 @@
 
     var outputValue = document.getElementById('output');
     var newEl = document.createElement("p");
-    newEl.innerHTML = "Sorted Name: " + sortUserName(userName);
+    newEl.innerHTML = "New Name: " + sortUserName(userName);
     outputValue.appendChild(newEl);
 
     //modify value by running the function
