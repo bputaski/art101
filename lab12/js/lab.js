@@ -6,7 +6,7 @@
 
 
  // Make a button for each section
- function sortingHatLength(str) {
+ function sortingHat(str) {
    len = str.length;
    mod = len % 4;
    if (mod == 0) {
