@@ -12,6 +12,20 @@ h1 {text-align: center;}
   margin-bottom: 10px;
 }
 
+body{
+  background-color: pink;
+  padding: 20px;
+}
+
+#content{
+  background-color: white;
+  padding: 20px;
+  min-height: 90vh;
+  text-align: center;
+  font-family: cursive;
+}
+
+
 div#input, div#output {
     border: solid 1px #ccc;
     padding: 20px;
