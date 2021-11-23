@@ -12,31 +12,23 @@ h1 {text-align: center;}
   margin-bottom: 10px;
 }
 
-#challenge.sectionbox {
-  padding: 10px;
+div#input, div#output {
+    border: solid 1px #ccc;
+    padding: 20px;
 }
 
-#challenge.special {
-  background-color: lightgrey;
-  border: solid 1px black;
+#output p {
+    margin-top: 0;
+    margin-bottom: 0;
 }
 
-
-#problem.sectionbox {
-  padding: 10px;
+#output.cols {
+    -webkit-column-width: 200px;
+    -moz-column-width: 200px;
+    column-width: 200px;
 }
 
-#problem.special {
-  background-color: lightgrey;
-  border: solid 1px black;
-}
-
-
-#results.sectionbox {
-  padding: 10px;
-}
-
-#results.special {
-  background-color: lightgrey;
-  border: solid 1px black;
+.error {
+    color: red;
+    font-weight: bold;
 }
