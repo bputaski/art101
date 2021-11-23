@@ -1,19 +1,6 @@
 h1 {text-align: center;}
-
-#summary {
-  text-align: center;
-  margin-left: 200px;
-  margin-right: 200px;
-  border: solid black 1px;
-  background-color: white;
-  font-weight: bold;
-  font-size: 20px;
-  line-height:25px;
-  margin-bottom: 10px;
-}
-
 body{
-  background-color: pink;
+  background-color: beige;
   padding: 20px;
 }
 
@@ -22,7 +9,6 @@ body{
   padding: 20px;
   min-height: 90vh;
   text-align: center;
-  font-family: cursive;
 }
 
 
