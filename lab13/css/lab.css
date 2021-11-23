@@ -4,18 +4,28 @@ body{
   padding: 20px;
 }
 
-#content{
-  background-color: white;
-  padding: 20px;
-  min-height: 90vh;
+#summary {
   text-align: center;
+  margin-left: 100px;
+  margin-right: 100px;
+  border: solid black 1px;
+  background-color: white;
+  font-weight: bold;
+  font-size: 20px;
+  line-height:25px;
+  margin-bottom: 10px;
 }
 
-#summary{
-  background-color: white;
-  padding: 20px;
-  min-height: 90vh;
+#content {
   text-align: center;
+  margin-left: 100px;
+  margin-right: 100px;
+  border: solid black 1px;
+  background-color: white;
+  font-weight: bold;
+  font-size: 20px;
+  line-height:25px;
+  margin-bottom: 10px;
 }
 
 
