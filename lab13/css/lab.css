@@ -30,7 +30,10 @@ body{
 
 
 div#input, div#output {
-    border: solid 1px #ccc;
+  margin-left: 100px;
+  margin-right: 100px;
+  border: solid black 1px;
+  background-color: white;
     padding: 20px;
 }
 
