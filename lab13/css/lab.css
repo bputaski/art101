@@ -11,6 +11,13 @@ body{
   text-align: center;
 }
 
+#summary{
+  background-color: white;
+  padding: 20px;
+  min-height: 90vh;
+  text-align: center;
+}
+
 
 div#input, div#output {
     border: solid 1px #ccc;
