@@ -10,10 +10,9 @@
   * License: Public Domain
   */
 
- var apiEndpoint = "https://api.chucknorris.io/jokes/random";
  var myUrl = "https://api.kanye.rest/";
 
- $("#api-button").click(doAPIStuff);
+ $("#activate").click(doAPIStuff);
 
  function callAjax() {
    console.log("click");
@@ -30,5 +29,3 @@
      console.log(request, error);
    })
  }
-
- $("#my-button").click(callAjax);
