@@ -10,10 +10,13 @@ p {
 }
 
 #content {
-    background-color: grey;
-    width: 500px;
-    min-width: 300px;
-    padding: 10px
-    margin: 10px:auto;border: solid 1px #444444;
+    text-align: center;
+    margin-left: 200px;
+    margin-right: 200px;
+    border: solid black 1px;
+    background-color: white;
+    font-weight: bold;
     font-size: 20px;
+    line-height:25px;
+    margin-bottom: 10px;
 }
