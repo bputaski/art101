@@ -10,8 +10,9 @@
   * License: Public Domain
   */
 
- //apiEndpoint = "https://api.chucknorris.io/jokes/random";
- var apiEndpoint = "https://xkcd.com/info.0.json"
+
+ var apiEndpoint = "https://api.chucknorris.io/jokes/random";
+ var myUrl = "http://numbersapi.com/42/math";
 
  $("#api-button").click(doAPIStuff);
 
