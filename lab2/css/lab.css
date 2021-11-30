@@ -1,22 +1,15 @@
-h1 {
-    color: blue;
-    font-size: 200%
-}
+h1 {text-align: center;}
+h2 {text-align: center;}
 
-p {
-  font-family: "times new roman";
-  text-indent: 20px;
-  margin-left: 10px;
-}
 
-#content {
-    text-align: center;
-    margin-left: 200px;
-    margin-right: 200px;
-    border: solid black 1px;
-    background-color: white;
-    font-weight: bold;
-    font-size: 20px;
-    line-height:25px;
-    margin-bottom: 10px;
+#summary {
+  text-align: center;
+  margin-left: 200px;
+  margin-right: 200px;
+  border: solid black 1px;
+  background-color: white;
+  font-weight: bold;
+  font-size: 20px;
+  line-height:25px;
+  margin-bottom: 10px;
 }
