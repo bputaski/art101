@@ -4,17 +4,13 @@
  * License: Public Domain
  */
 
- /*
-  * Author: Wes Modes <wmodes@csumb.edu>
-  * Created: 19 September
-  * License: Public Domain
-  */
+
 
  var myUrl = "https://api.kanye.rest/";
 
  $("#activate").click(doAPIStuff);
 
- function callAjax() {
+ function doAPIStuff() {
    console.log("click");
    $.ajax({
      url: myUrl,
