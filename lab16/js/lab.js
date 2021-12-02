@@ -6,9 +6,13 @@
 
 
 
- var myUrl = "https://xkcd.com/json.html";
+ var myUrl = "https://xkcd.com/info.0.json";
 
  $("#activate").click(doAPIStuff);
+
+ function printOutput(text){
+   $("#output").html(text);
+ };
 
  function doAPIStuff() {
    console.log("click");
