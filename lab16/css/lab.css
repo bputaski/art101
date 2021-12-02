@@ -4,8 +4,8 @@ h2 {text-align: center;}
 
 #summary {
   text-align: center;
-  margin-left: 200px;
-  margin-right: 200px;
+  margin-left: 150px;
+  margin-right: 150px;
   border: solid black 1px;
   background-color: white;
   font-weight: bold;
@@ -16,8 +16,8 @@ h2 {text-align: center;}
 
 #javaOutput {
   text-align: center;
-  margin-left: 200px;
-  margin-right: 200px;
+  margin-left: 150px;
+  margin-right: 150px;
   border: solid black 1px;
   background-color: white;
   font-weight: bold;
@@ -29,8 +29,8 @@ h2 {text-align: center;}
 #output {
   text-align: center;
   font-family: Brush Script MT, cursive;
-  margin-left: 200px;
-  margin-right: 200px;
+  margin-left: 150px;
+  margin-right: 150px;
   border: solid black 1px;
   background-color: lightgrey;
   font-weight: bold;
