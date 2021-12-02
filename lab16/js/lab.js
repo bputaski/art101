@@ -6,7 +6,7 @@
 
 
 
- var myUrl = "https://api.kanye.rest/";
+ var myUrl = "https://xkcd.com/json.html";
 
  $("#activate").click(doAPIStuff);
 
@@ -27,7 +27,10 @@
 // data is passed back
    .done(function(data){
      console.log("Success:", data);
-     $("#output").append("<p>" + data.quote);
+     var imgUrl = data.img;
+     var imgTag = "<img src=" + imgUrl + ">";
+     console.log(imgUrl, imgTag);
+     $("#output").html(imgTag);
    })
 
 // If the request fails
