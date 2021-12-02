@@ -1,6 +1,6 @@
 /*
  * Author: Ben Putaski <bputaski@ucsc.edu>
- * Created: 30 November
+ * Created: 1 December
  * License: Public Domain
  */
 
